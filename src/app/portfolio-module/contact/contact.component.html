@@ -1,0 +1,30 @@
+<div class="container">
+    <h5 class="display-6 text-center">Contact Me</h5>
+    <section class="shadow-lg p-3 bg-body-tertiary rounded">
+        <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+            <label for="name" class="form-label">Name:</label>
+            <input id="name" type="text" placeholder="Name" name="name" ngModel #name="ngModel" class="form-control" required><br>
+            <div *ngIf="name.touched && name.invalid">
+            <small>Name is required</small>
+            </div>
+            <label for="subject" class="form-label">Subject:</label>
+            <input class="form-control" id="subject" type="text" placeholder="Subject" name="subject" ngModel #subject="ngModel" required><br>
+            <div *ngIf="subject.touched && subject.invalid">
+                <small>Subject is required</small>
+            </div>
+            
+            <label for="email" type="email" placeholder="Email" name="email" ngModel #email="ngModel" class="form-label">Email</label>
+            <input type="email" ngModel placeholder="Email" name="email" #email="ngModel" class="form-control" required><br>  
+            <div *ngIf="email.touched && email.invalid">
+                <small>Email is required</small>
+            </div>          
+            
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" placeholder="Message" name="message" ngModel #message="ngModel" required></textarea><br>
+            <div *ngIf="message.touched && message.invalid">
+                <small>Message is required</small>
+            </div>
+            <button class="btn btn-primary">Send</button>
+        </form>
+    </section>
+</div>

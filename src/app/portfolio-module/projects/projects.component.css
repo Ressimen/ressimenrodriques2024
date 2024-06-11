@@ -1,0 +1,32 @@
+
+.container-fluid{
+    background-color: bisque;
+    margin-top: 4.5rem;
+}
+.carousel-caption{
+    position: relative;
+    bottom: 50px;
+    left:20px;
+}
+.btn.btn-info{
+    display: block;
+    margin-left:45%;
+}
+ video{
+    margin-left:15%;
+ }
+ #projectsCarousel{
+    
+    height: 560px;
+    width: 900px;
+    
+ }
+table tr th a{
+    width:14vw;
+}
+.btn-success1{
+    background-color:#9fd356 ;
+}
+.btn-warning1{
+    background-color: #DBD51F;
+}

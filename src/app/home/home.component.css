@@ -1,0 +1,350 @@
+.container{
+    position: absolute;
+    top:72px;
+    width: 70%;
+    height: 90vh;
+    background-color: #342e37;
+}
+.container h1 {
+    position:relative;
+    top: 260px;
+    color:#9fd356;
+    left:32px;
+    animation: erase 6s ease-in infinite;
+}
+
+@keyframes erase {
+    0% {
+        color: white;
+        
+    }
+    100% {
+        color:#9fd356;
+        
+    }
+  }
+.container p {
+    position: relative;
+    top: 280px;
+    left:32px;
+    color:#9fd356;
+    animation: erase 6s ease-in infinite;
+}
+
+.right-container{
+    position: absolute;
+    right:0px;
+    top:72px;
+    width: 32%;
+    height: 90vh;
+    background-color: #9fd356;
+}
+
+.profile-image{
+position: absolute;
+z-index: 2;
+right:291px;
+top:250px;
+
+}
+.profile-image img{
+width:400px;
+height:400px;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .container {
+        position: absolute;
+        top: 72px;
+        width: 100%;
+        height: 90vh;
+        background-color: #342e37;
+    }
+
+    .container h1 {
+        position: relative;
+        top: 66vh;
+        color: #9fd356;
+        left: 67px;
+        font-size: larger;
+        display: inline;
+    }
+
+    .container p {
+        position: relative;
+        top: 66vh;
+        left: 20px;
+        color: white;
+        font-size: small;
+    }
+
+    .right-container {
+        position: absolute;
+        left: 0px;
+        top: 109vh;
+        width: 100vw;
+        height: 64vh;
+        background-color: #9fd356;
+    }
+
+    .profile-image {
+        position: absolute;
+        z-index: 2;
+        right: 120px;
+        top: 110px;
+
+    }
+
+    .profile-image img {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left:18vw;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .container {
+        position: absolute;
+        top: 72px;
+        width: 100%;
+        height: 90vh;
+        background-color: #342e37;
+    }
+
+    .container h1 {
+        position: relative;
+        top: 66vh;
+        color: #9fd356;
+        left: 30vw;
+        display: inline;
+        font-size: medium;
+    }
+
+    .container p {
+        position: relative;
+        top: 72vh;
+        left: -40px;
+        color: white;
+        font-size: x-small;
+        display: inline;
+    }
+
+    .right-container {
+        position: absolute;
+        left: 0px;
+        top: 100vh;
+        width: 100%;
+        height: 40vh;
+        background-color: #9fd356;
+    }
+
+    .profile-image {
+        position: absolute;
+        z-index: 2;
+        right: 120px;
+        top: 110px;
+
+    }
+
+    .profile-image img {
+        width: 80%;
+        height: 80%;
+        position: relative;
+        left:25vw;
+    }
+}
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .container {
+        position: absolute;
+        top: 72px;
+        width: 62vh;
+        height: 155vh;
+        background-color: #342e37;
+    }
+
+    .container h1 {
+        position: relative;
+        top: 4vh;
+        color: #9fd356;
+        left: 10px;
+    }
+
+    .container p {
+        position: relative;
+        top: 10vh;
+        left: 10px;
+        color: white;
+    }
+
+    .right-container {
+        position: absolute;
+        left: 62vh;
+        top: 72px;
+        width: 62vh;
+        height: 155vh;
+        background-color: #9fd356;
+    }
+
+    .profile-image {
+        position: absolute;
+        z-index: 2;
+        right: 152px;
+        top: 110px;
+
+    }
+
+    .profile-image img {
+        width:50%;
+        height: 100%;
+        position: relative;
+        left:69vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        position: absolute;
+        top: 72px;
+        width: 125vw;
+        height: 145vh;
+        background-color: #342e37;
+    }
+
+    .container h1 {
+        position: relative;
+        top: 34vh;
+        color: #9fd356;
+        left: 10px;
+        font-size: xx-large;
+    }
+
+    .container p {
+        position: relative;
+        top: 38vh;
+        left: 10px;
+        color: white;
+        font-size: medium;
+    }
+
+    .right-container {
+        position: absolute;
+        left: 61vw;
+        top: 72px;
+        width: 40vw;
+        height: 145vh;
+        background-color: #9fd356;
+    }
+
+    .profile-image {
+        position: absolute;
+        z-index: 2;
+        right: 152px;
+        top: 36vh;
+    }
+
+    .profile-image img {
+        width:40%;
+        height: 100%;
+        position: relative;
+        left:47vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .container {
+        position: absolute;
+        top: 72px;
+        width: 100%;
+        height: 140%;
+        background-color: #342e37;
+    }
+
+    .container h1 {
+        position: relative;
+        top: 60vh;
+        color: #9fd356;
+        left: 10vw;
+    }
+
+    .container p {
+        position: relative;
+        top: 64vh;
+        left: 96px;
+        color: white;
+        font-size: large;
+    }
+
+    .right-container {
+        position: absolute;
+        right: 0;
+        top: 72px;
+        width: 40vw;
+        height: 140%;
+        background-color: #9fd356;
+    }
+
+    .profile-image {
+        position: absolute;
+        z-index: 2;
+        right: 152px;
+        top: 50vh;
+
+    }
+
+    .profile-image img {
+        width:36%;
+        height: 100%;
+        position: relative;
+        left:28vw;
+    }
+}
+
+@media (min-width: 1440px) and (max-width:1500px) {
+    .container{
+        position: absolute;
+        top:72px;
+        width: 81%;
+        height: 136vh;
+        background-color: #342e37;
+    }
+    .container h1 {
+        position:relative;
+        top: 60vh;
+        color:#9fd356;
+        left:10vw;
+    }
+    
+    .container p {
+        position: relative;
+        top: 62vh;
+        left:10vw;
+        color:#9fd356;
+        font-size: xx-large;
+    }
+    
+    .right-container{
+        position: absolute;
+        right:0vw;
+        top:72px;
+        width: 32%;
+        height: 136vh;
+        background-color: #9fd356;
+    }
+    
+    .profile-image{
+    position: absolute;
+    z-index: 2;
+    right:510px;
+    top:180px;
+    
+    }
+    .profile-image img{
+    width:50%;
+    height:100%;
+    left:37vw;
+    }
+
+}

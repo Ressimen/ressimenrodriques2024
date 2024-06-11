@@ -1,0 +1,13 @@
+<div class="container-fluid">
+    <div class="card mt-5">
+        <h1 class="mx-5 my-4 display-6">Skills</h1>
+        <section class="mx-5 my-2" *ngFor="let skill of skills">
+            <p class="fw-light">{{skill.skillName}}</p>
+                 <div class="progress my-2" role="progressbar">
+                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" [style.width.%]="skill.percentage">{{skill.percentage}}%</div>
+                </div>
+        </section>
+    </div>
+
+</div>
+

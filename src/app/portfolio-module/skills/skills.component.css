@@ -1,0 +1,64 @@
+.container-fluid{
+    margin-top: 12vh;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    max-height: 80vh;
+    overflow-y: scroll;
+     background-color:#1aa4d2; 
+}
+
+section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1, ul, p{
+    color:white;
+} 
+
+.progress{
+    width: 25% !important;
+}
+
+@media (min-width:320px) and (max-width:425px){
+    .container-fluid{
+        margin-top: 12vh;
+    }
+    
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px,
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        max-height: 80vh;
+        overflow-y: scroll;
+         background-color:#1aa4d2; 
+    }
+    
+    section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:0px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    h1, ul, p{
+        color:white;
+    } 
+    .progress{
+        width: 60% !important;
+    }
+}

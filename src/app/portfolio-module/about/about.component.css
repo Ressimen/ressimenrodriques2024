@@ -1,0 +1,138 @@
+.container-fluid {
+    margin-top: 14vh;
+}
+
+.awards {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #1aa4d2;
+}
+
+h1,ul,h3 {
+    color: white;
+}
+
+@media (min-width:320px) and (max-width:375px) {
+    .container-fluid {
+        margin-top: 14vh;
+        margin-left:10vw;
+    }
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px,
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: #1aa4d2;
+    }
+
+     h1,ul,h3 {
+            color: white;
+            font-size: small;
+            padding: 0;
+        }
+}
+
+@media (min-width:375px) and (max-width:425px) {
+    .container-fluid {
+        margin-top: 14vh;
+        margin-left:0vw;
+    }
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px,
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: #1aa4d2;
+    }
+
+     h1,ul,h3 {
+            color: white;
+            font-size: small;
+            padding: 0;
+        }
+}
+@media (min-width:425px) and (max-width:768px) {
+    .container-fluid {
+        margin-top: 14vh;
+        margin-left:0vw;
+    }
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px,
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: #1aa4d2;
+    }
+
+     h1,ul,h3 {
+            color: white;
+            font-size: small;
+            padding: 0;
+        }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .container-fluid {
+        margin-top: 14vh;
+        margin-left:0vw;
+    }
+
+    .awards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .card {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px,
+            rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: #1aa4d2;
+    }
+
+     h1,ul,h3 {
+            color: white;
+            font-size: medium;
+            padding: 0;
+        }
+}
